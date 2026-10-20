@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<title>リンク集</title>
+<meta name="description" content="パスワードで保護されたリンク集です。">
+<meta property="og:type" content="website">
+<meta property="og:title" content="リンク集">
+<meta property="og:description" content="パスワードで保護されたリンク集です。">
+<meta property="og:url" content="https://koochan-fan.github.io/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="リンク集">
+<meta name="twitter:description" content="パスワードで保護されたリンク集です。">
+<style>
+:root{--bg:#f4f2ec;--fg:#2b2a27;--muted:#76726a;--border:#e1ded4;--link:#2f5b86;--link-hover:#1f4366;--header-bg:#fbfaf6;--code-bg:#eceae2;--table-header-bg:#eeece4;--font-scale:1}
+*{box-sizing:border-box}
+html{background:var(--bg)}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:"Yu Gothic Medium","Yu Gothic UI","Yu Gothic","Hiragino Kaku Gothic ProN","Hiragino Sans","Meiryo",system-ui,sans-serif;font-size:calc(17px * var(--font-scale));line-height:1.8}
+button,input{font:inherit}button{cursor:pointer}a{color:var(--link);text-decoration:none}a:hover{color:var(--link-hover)}
+button:focus-visible,a:focus-visible,input:focus-visible{outline:2px solid var(--link);outline-offset:3px}
+.wrap{max-width:900px;padding:0 20px;margin:0 auto}.topbar{padding:19px 0 15px}
+.brand{display:inline-flex;align-items:center;gap:11px;font-size:calc(15px * var(--font-scale));letter-spacing:.12em;color:var(--fg)}
+.brand-mark{display:inline-grid;place-items:center;width:24px;height:24px;color:var(--link)}
+.brand-mark svg{width:17px;height:17px;stroke:currentColor;fill:none;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.hero{display:block;width:100%;height:auto;max-height:360px;object-fit:contain;margin:4px auto 24px}
+.main{max-width:860px;margin:auto;padding-bottom:72px}
+.panel{border:1px solid var(--border);border-radius:10px;background:var(--header-bg);padding:20px 24px}
+.login{max-width:450px;margin:54px auto 0}.login label{display:block;color:var(--muted);font-size:calc(13px * var(--font-scale));margin-bottom:8px}
+input{width:100%;background:var(--header-bg);border:1px solid var(--border);color:var(--fg);border-radius:6px;padding:12px 14px;outline-offset:2px}
+input:focus{outline:2px solid var(--link)}.action{padding:10px 18px;color:var(--header-bg);background:var(--link);border:1px solid var(--link);border-radius:6px;white-space:nowrap}.action:hover{background:var(--link-hover)}
+.login form{display:flex;gap:10px}.login form input{min-width:0}.msg{min-height:23px;font-size:calc(13px * var(--font-scale));color:var(--muted);margin:8px 0 0}
+.category{display:flex;flex-direction:column;align-items:stretch;justify-content:space-between;gap:13px;min-width:0;width:100%;text-align:left;border:1px solid var(--border);border-radius:10px;background:var(--header-bg);padding:17px 18px;color:var(--fg);transition:border-color .2s,background .2s}.category:hover{border-color:#b9b2a5;background:#fefdf9}
+.category-list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.category-name{font-size:calc(17px * var(--font-scale));letter-spacing:.04em}.category-side{display:flex;align-items:center;justify-content:space-between;gap:8px}.count{color:var(--muted);font-size:calc(12.5px * var(--font-scale))}.category-arrow{display:grid;place-items:center;width:28px;height:28px;border:1px solid var(--border);border-radius:50%;color:var(--link);transition:transform .2s}.category:hover .category-arrow{transform:translateX(3px)}
+.subnav{display:flex;align-items:center;justify-content:space-between;gap:15px;margin-bottom:22px;flex-wrap:wrap}.subnav-tools{display:flex;align-items:center;gap:12px;margin-left:auto}
+.back-button{border:0;background:none;display:inline-flex;align-items:center;gap:10px;padding:4px 0;color:var(--fg);font-size:calc(14px * var(--font-scale));letter-spacing:.02em}
+.back-icon{display:grid;place-items:center;width:40px;height:40px;border-radius:50%;border:1px solid var(--border);background:var(--header-bg);color:var(--link);transition:background .18s,border-color .18s,transform .18s}
+.back-button:hover .back-icon{background:var(--code-bg);border-color:#c6c0b5;transform:translateX(-3px)}
+.back-label{display:flex;flex-direction:column;align-items:flex-start;line-height:1.4}.back-label small{display:none}
+.heading-row{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:40px 0 18px}.heading{position:relative;font-size:calc(22px * var(--font-scale));font-weight:normal;line-height:1.4;color:var(--fg);margin:0;padding:4px 0 4px 16px;border-left:4px solid var(--link);border-radius:3px}
+.heading::before{content:none}
+.sort{display:inline-flex;align-items:center;padding:3px;border:1px solid var(--border);border-radius:999px;background:var(--header-bg);flex-shrink:0;max-width:100%}
+.sort button{border:0;background:transparent;padding:6px 10px;border-radius:999px;font-size:calc(12px * var(--font-scale));color:var(--muted);white-space:nowrap;line-height:1.5}.sort button[aria-pressed="true"]{background:var(--code-bg);color:var(--fg)}
+.notice{display:flex;align-items:flex-start;gap:8px;margin:0 0 15px;color:var(--muted);font-size:calc(12.5px * var(--font-scale));line-height:1.65}
+.notice svg{width:15px;height:15px;flex:none;margin-top:2px;color:var(--fg);stroke:currentColor;fill:none;stroke-width:1.8;stroke-linejoin:round;stroke-linecap:round}
+.search-bar{display:flex;justify-content:flex-end;align-items:center;gap:8px;margin:0 0 14px;min-height:34px}
+.search-toggle{display:inline-flex;align-items:center;justify-content:center;gap:6px;padding:6px 10px;border:1px solid var(--border);border-radius:999px;background:transparent;color:var(--link);font-size:calc(12.5px * var(--font-scale));line-height:1.4;white-space:nowrap}
+.search-toggle:hover{background:var(--code-bg);color:var(--link-hover)}
+.search-toggle svg{height:15px;width:15px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.search{margin:0;max-width:340px;font-size:calc(14px * var(--font-scale));padding:7px 11px;border-radius:6px;background:var(--bg)}
+.items{display:grid;gap:12px}
+.entry{padding:10px 14px;border:1px solid var(--border);border-radius:6px;background:var(--bg);display:flex;flex-direction:column;gap:3px;min-width:0;line-height:1.5}
+.date{font-size:calc(12.5px * var(--font-scale));color:#99958c;line-height:1.5;white-space:nowrap}.quote{min-height:1.5em} .entry-footer{display:flex;justify-content:flex-end;align-items:center;gap:clamp(9px,3vw,22px);flex-wrap:wrap;margin-top:8px}.entry-footer .go{margin:0}.quote{font-size:calc(17px * var(--font-scale));overflow-wrap:anywhere;line-height:1.5}
+.go{display:flex;justify-content:flex-end;margin-top:0}.go a{display:inline-flex;align-items:center;padding:4px 0 4px 10px;font-size:calc(12.5px * var(--font-scale));color:var(--link);transition:color .15s}.go a:hover{color:var(--link-hover);text-decoration:underline}
+[hidden]{display:none!important}
+@media(max-width:690px){.category-list{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:580px){.category-list{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.category{padding:12px;gap:11px;min-height:94px}.category-name{font-size:calc(15px * var(--font-scale))}.category-side{gap:4px}.category-arrow{width:24px;height:24px;font-size:calc(13px * var(--font-scale))}.wrap{padding:0 14px}.panel{padding:16px 20px}.login form{flex-direction:column}.hero{max-height:250px}.entry{padding:10px 12px}.quote{font-size:calc(16px * var(--font-scale))}.search{max-width:100%;min-width:0;flex:1}.heading-row{align-items:center;flex-direction:row;flex-wrap:wrap;gap:8px}.heading{font-size:calc(18px * var(--font-scale))}.sort{margin-left:auto}.sort button{font-size:calc(11px * var(--font-scale));padding:5px 7px}.go a{font-size:calc(11px * var(--font-scale));padding:2px 0 2px 8px}.subnav{margin-bottom:16px}}
+@media(prefers-reduced-motion:reduce){.category-arrow,.back-icon,.category,.go a{transition:none}}
+
+/* 2026-10 visual refinements */
+.category{align-items:center;justify-content:center;text-align:center;min-height:96px;padding:17px 15px;gap:0}
+.category-name{display:block;overflow-wrap:anywhere}
+.notice-search-row{display:flex;align-items:center;justify-content:space-between;gap:18px;margin:20px 0 14px}
+.notice-search-row .notice{font-size:calc(10.5px * var(--font-scale));line-height:1.5;margin:0;flex:1;min-width:0}
+.notice-search-row .notice svg{width:13px;height:13px;margin-top:1px}
+.notice-search-row .search-bar{margin:0;flex:0 1 auto;min-width:0}
+@media(max-width:580px){
+ .category{min-height:78px;padding:12px 8px}
+ .notice-search-row{gap:8px;margin-top:17px}
+ .notice-search-row .notice{font-size:calc(10px * var(--font-scale))}
+ .notice-search-row .search-bar{max-width:52%}
+ .notice-search-row .search:not([hidden]){width:100%;min-width:0}
+ .notice-search-row .search-toggle{padding:6px 8px}
+}
+/* Compact navigation tile refinements */
+.category{flex-direction:row;align-items:center;justify-content:space-between;text-align:left;min-height:66px;padding:13px 16px;gap:10px}
+.category-name{font-size:calc(16px * var(--font-scale));line-height:1.5;min-width:0;flex:1}
+.category-arrow{flex:none;width:29px;height:29px;border:1px solid var(--border);border-radius:50%;color:var(--link);font-size:16px;display:grid;place-items:center;transition:transform .2s,background .2s}
+.category:hover .category-arrow{transform:translateX(3px);background:var(--code-bg)}
+
+@media(max-width:580px){
+ .category{min-height:62px;padding:11px 12px;gap:6px}
+ .category-name{font-size:calc(14px * var(--font-scale))}
+ .category-arrow{width:25px;height:25px;font-size:14px}
+}
+/* Quiet spacing below the illustration; no decorative rule */
+.hero{margin-bottom:48px}
+
+.category,.category:hover{background:#f7f5ef}
+/* Avoid automatic focus zoom in iOS Safari */
+.search,.search:focus,#password,#password:focus{font-size:max(16px,calc(14px * var(--font-scale)))}
+/* Subtle return-to-top action: only shown for scrolled detail pages */
+.scroll-top{position:fixed;right:max(14px,env(safe-area-inset-right));bottom:max(16px,env(safe-area-inset-bottom));z-index:15;width:34px;height:34px;border:1px solid var(--border);border-radius:50%;background:#f7f5efeb;color:var(--link);display:grid;place-items:center;font-size:17px;line-height:1;opacity:0;visibility:hidden;pointer-events:none;transform:translateY(4px);transition:opacity .18s,transform .18s,visibility .18s}
+.scroll-top.is-visible{opacity:.84;visibility:visible;pointer-events:auto;transform:none}
+.scroll-top:hover{opacity:1;background:var(--header-bg)}
+@media(max-width:580px){.scroll-top{width:32px;height:32px;right:max(10px,env(safe-area-inset-right));bottom:max(12px,env(safe-area-inset-bottom))}}
+@media(prefers-reduced-motion:reduce){.scroll-top{transition:none}}
+
+/* Compact ordering controls below search, aligned to the right */
+.sort-row{display:flex;justify-content:flex-end;align-items:center;margin:2px 0 16px}
+.sort-row .sort{margin-left:auto;padding:2px}
+.sort-row .sort button{font-size:calc(10.5px * var(--font-scale));padding:5px 9px}
+/* Comfortable but subdued return-to-top touch target */
+.scroll-top{width:44px;height:44px;font-size:20px;opacity:0}
+.scroll-top.is-visible{opacity:.87}
+@media(max-width:580px){.scroll-top{width:42px;height:42px;right:max(12px,env(safe-area-inset-right));bottom:max(15px,env(safe-area-inset-bottom))}.sort-row .sort button{font-size:calc(10px * var(--font-scale));padding:5px 8px}}
+/* Sorting above the smaller search control */
+.sort-row{margin:1px 0 11px}
+.sort-row .sort{padding:2px}
+.sort-row .sort button{font-size:calc(10px * var(--font-scale));padding:4px 8px}
+.search-toggle{font-size:calc(11px * var(--font-scale));padding:5px 9px;min-height:32px}
+.search-toggle svg{width:13px;height:13px}
+@media(max-width:580px){
+ .sort-row .sort button{font-size:calc(9.5px * var(--font-scale));padding:4px 7px}
+ .notice-search-row .search-toggle{font-size:calc(10px * var(--font-scale));padding:5px 7px;min-height:30px}
+}
+
+/* Home navigation: quiet paper pills, matching the existing brand. */
+#home.category-list{
+  display:flex;flex-wrap:wrap;justify-content:flex-start;align-items:center;
+  column-gap:10px;row-gap:11px;
+}
+
+#home .category{
+  display:inline-flex;flex:0 0 auto;width:auto;min-width:0;min-height:40px;
+  padding:8px 11px 8px 17px;gap:13px;
+  border:1px solid var(--border);border-radius:999px;
+  background:#f7f5ef;color:var(--link);text-align:left;
+  transition:background .18s,border-color .18s;
+}
+#home .category:hover{background:var(--code-bg);border-color:#c6c0b5;}
+#home .category-name{
+  font-size:calc(13px * var(--font-scale));font-weight:500;
+  letter-spacing:.035em;line-height:1.5;color:var(--link);white-space:nowrap;
+}
+#home .category-arrow{
+  width:23px;height:23px;border:0;background:transparent;
+  border-radius:50%;font-size:15px;line-height:1;color:var(--link);
+}
+#home .category:hover .category-arrow{background:transparent;transform:translateX(2px);}
+/* Back navigation uses the same restrained typography as the home pills. */
+.back-button{gap:9px;color:var(--link);font-size:calc(13px * var(--font-scale));font-weight:500;letter-spacing:.035em;}
+.back-icon{width:34px;height:34px;background:#f7f5ef;color:var(--link);font-size:17px;}
+.back-button:hover .back-icon{background:var(--code-bg);}
+@media(max-width:580px){
+  #home.category-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;}
+  
+  #home .category{width:100%;min-width:0;min-height:42px;padding:8px 8px 8px 12px;gap:4px;}
+  #home .category-name{font-size:calc(12px * var(--font-scale));white-space:normal;overflow-wrap:anywhere;}
+  #home .category-arrow{flex:none;width:19px;height:19px;font-size:13px;}
+}
+@media(prefers-reduced-motion:reduce){#home .category,#home .category-arrow{transition:none;}}
+
+/* Home navigation: center-align category text without a decorative arrow. */
+#home .category{justify-content:center;text-align:center;padding:9px 19px;gap:0;}
+#home .category-name{flex:initial;text-align:center;}
+#home .category-arrow{display:none;}
+@media(max-width:580px){#home .category{justify-content:center;padding:9px 10px;}}
+/* A minimal, rounded unlock screen using the existing paper palette. */
+.sr-only{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;}
+.login{max-width:420px;margin:58px auto 0;padding:22px 24px 17px;background:transparent;border:0;border-radius:0;}
+.login form{display:flex;flex-direction:column;gap:12px;}
+.login #password{height:50px;border:1px solid var(--border);border-radius:999px;background:var(--header-bg);padding:10px 20px;font-size:max(16px,calc(15px * var(--font-scale)));}
+.login #password::placeholder{color:#99958c;opacity:1;}
+.login .action{min-height:46px;width:100%;border:1px solid var(--border);border-radius:999px;background:var(--code-bg);color:var(--fg);font-size:calc(14px * var(--font-scale));font-weight:500;transition:background .18s,border-color .18s;}
+.login .action:hover{background:#e5e1d7;border-color:#cbc5b9;}
+.login .action:disabled{opacity:.65;cursor:wait;}
+.login .msg{margin-top:11px;text-align:center;}
+@media(max-width:580px){.login{margin-top:40px;padding:14px 8px;}.login form{flex-direction:column;}}
+@media(max-width:580px){.hero{margin-bottom:36px}}
+/* Keep the mobile password form around the vertical center of the visible page. */
+@media(max-width:580px){
+  #gate:not([hidden]){
+    margin:0 auto;
+    min-height:calc(100svh - 76px);
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+  }
+}
+
+
+/* Paper / Navy theme switcher */
+html[data-theme="navy"]{
+ --bg:#15202b;--fg:#e7e9ea;--muted:#8b98a5;--border:#38444d;
+ --link:#1d9bf0;--link-hover:#61b8f5;--header-bg:#1c2732;
+ --code-bg:#1c2732;--table-header-bg:#202e3a;
+}
+.topbar{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.detail-controls{display:flex;flex-direction:column;align-items:center;gap:9px}
+/* The gate screen has no theme controls, but retains the chosen theme. */
+html[data-theme="navy"] .category,html[data-theme="navy"] .category:hover,
+html[data-theme="navy"] #home .category,html[data-theme="navy"] .back-icon,
+html[data-theme="navy"] .scroll-top{background:var(--bg);color:var(--link)}
+html[data-theme="navy"] #home .category:hover,html[data-theme="navy"] .back-button:hover .back-icon,
+html[data-theme="navy"] .scroll-top:hover{background:var(--code-bg);border-color:var(--border)}
+html[data-theme="navy"] .category-name{color:var(--link)}
+html[data-theme="navy"] .date,html[data-theme="navy"] .login #password::placeholder{color:var(--muted)}
+html[data-theme="navy"] .login .action{background:var(--code-bg);color:var(--fg);border-color:var(--border)}
+html[data-theme="navy"] .login .action:hover{background:var(--header-bg);border-color:var(--border)}
+html[data-theme="navy"] .notice svg{color:#b0bdc8}
+html[data-theme="navy"] .category:hover{border-color:var(--border)}
+
+/* Compact, accessible display-settings popover. */
+:root{--card-gap:12px}
+.items{gap:var(--card-gap)}
+.display-settings{position:relative;flex:none;z-index:20}
+.settings-trigger{display:grid;place-items:center;width:38px;height:38px;border:1px solid var(--border);border-radius:50%;background:var(--header-bg);color:var(--link);padding:9px}
+.settings-trigger:hover,.settings-trigger[aria-expanded="true"]{background:var(--code-bg)}
+.settings-trigger svg{display:block;width:19px;height:19px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.settings-trigger svg circle{fill:var(--header-bg)}
+.settings-panel{position:absolute;top:calc(100% + 9px);right:0;width:min(310px,calc(100vw - 28px));padding:9px 14px;border:1px solid var(--border);border-radius:12px;background:var(--header-bg);box-shadow:0 10px 26px #0002;color:var(--fg);font-size:13px;line-height:1.45}
+.settings-line{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:51px}
+.settings-line+.settings-line{border-top:1px solid var(--border)}
+.settings-line>span{flex:none;white-space:nowrap}
+.adjust,.palette{display:flex;align-items:center;justify-content:flex-end;gap:4px}
+.adjust button,.palette button{display:grid;place-items:center;border:1px solid var(--border);background:transparent;color:var(--link);border-radius:999px;width:33px;height:33px;font-size:18px;line-height:1}
+.adjust button:disabled{opacity:.3;cursor:default}
+.adjust button:hover:not(:disabled),.palette button:hover{background:var(--code-bg)}
+.adjust output{width:48px;text-align:center;white-space:nowrap;color:var(--muted);font-size:12px}
+.palette button{width:35px;height:35px}
+.palette button[aria-pressed="true"]{background:var(--code-bg);border-color:var(--link)}
+.palette svg{width:18px;height:18px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.topbar .display-settings{margin-left:auto}
+.subnav-tools{align-items:center}
+.detail-controls{display:flex;align-items:center;justify-content:center}
+body:has(#gate:not([hidden])) .topbar .display-settings{display:none}
+html[data-theme="navy"] .settings-trigger{background:var(--bg)}
+html[data-theme="navy"] .settings-trigger:hover{background:var(--code-bg)}
+html[data-theme="navy"] .settings-panel{box-shadow:0 10px 26px #0005}
+@media(max-width:580px){.settings-panel{font-size:13px}.settings-trigger{width:38px;height:38px}}
+/* Privacy note on the password screen. */
+.login-privacy{margin:32px auto 0;max-width:370px;text-align:center;color:var(--muted);font-size:calc(12px * var(--font-scale));line-height:1.8}
+.login-privacy-title{margin:0 0 6px;font-weight:600;color:var(--muted)}
+.login-privacy-text{margin:0}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="topbar" id="topbar"><span class="brand"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 12.5l-2 2a4 4 0 0 0 5.7 5.6l3-3a4 4 0 0 0 0-5.6"/><path d="M16 11.5l2-2a4 4 0 0 0-5.7-5.6l-3 3a4 4 0 0 0 0 5.6"/></svg></span>リンク集</span><div class="display-settings">
+  <button class="settings-trigger" type="button" aria-label="表示設定" title="表示設定" aria-expanded="false" aria-haspopup="true"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 7h16M4 17h16"/><circle cx="9" cy="7" r="2.5"/><circle cx="16" cy="17" r="2.5"/></svg></button>
+  <div class="settings-panel" hidden>
+    <div class="settings-line"><span>文字サイズ</span><div class="adjust"><button type="button" data-font-delta="-1" aria-label="文字を小さく">−</button><output data-font-value>標準</output><button type="button" data-font-delta="1" aria-label="文字を大きく">＋</button></div></div>
+    <div class="settings-line"><span>カード間隔</span><div class="adjust"><button type="button" data-gap-delta="-4" aria-label="カードの間隔を狭く">−</button><output data-gap-value>12px</output><button type="button" data-gap-delta="4" aria-label="カードの間隔を広く">＋</button></div></div>
+    <div class="settings-line"><span>配色</span><div class="palette" role="group" aria-label="配色テーマ"><button type="button" data-theme-choice="paper" aria-label="ペーパーテーマ" title="ペーパー" aria-pressed="true"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg></button><button type="button" data-theme-choice="navy" aria-label="ネイビーテーマ" title="ネイビー" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20.5 14.1A8.7 8.7 0 0 1 9.9 3.5a8.9 8.9 0 1 0 10.6 10.6Z"/></svg></button></div></div>
+  </div>
+</div></header>
+<main class="main">
+  <section id="gate" class="panel login">
+    <label for="password" class="sr-only">パスワード</label>
+    <form id="unlockForm"><input id="password" type="password" autocomplete="current-password" placeholder="パスワード" required><button class="action" id="unlockButton" type="submit">ロック解除</button></form>
+    <p class="msg" id="status" role="status" aria-live="polite"></p>
+    <div class="login-privacy" aria-label="プライバシーについて">
+      <p class="login-privacy-title">プライバシーについて</p>
+      <p class="login-privacy-text">このサイトでは、アクセス解析や操作履歴の収集は一切していません。</p>
+    </div>
+  </section>
+  <section id="site" hidden>
+    <img class="hero" src="hero.png" alt="Tsumoru イラスト" onerror="this.hidden=true">
+    <div id="home" class="category-list"></div>
+    <div id="detail" hidden>
+      <div class="subnav"><button class="back-button" id="back" type="button"><span class="back-icon" aria-hidden="true">←</span><span class="back-label">トップへ戻る</span></button><div class="subnav-tools"><span class="count" id="visible"></span><div class="detail-controls"><div class="display-settings">
+  <button class="settings-trigger" type="button" aria-label="表示設定" title="表示設定" aria-expanded="false" aria-haspopup="true"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 7h16M4 17h16"/><circle cx="9" cy="7" r="2.5"/><circle cx="16" cy="17" r="2.5"/></svg></button>
+  <div class="settings-panel" hidden>
+    <div class="settings-line"><span>文字サイズ</span><div class="adjust"><button type="button" data-font-delta="-1" aria-label="文字を小さく">−</button><output data-font-value>標準</output><button type="button" data-font-delta="1" aria-label="文字を大きく">＋</button></div></div>
+    <div class="settings-line"><span>カード間隔</span><div class="adjust"><button type="button" data-gap-delta="-4" aria-label="カードの間隔を狭く">−</button><output data-gap-value>12px</output><button type="button" data-gap-delta="4" aria-label="カードの間隔を広く">＋</button></div></div>
+    <div class="settings-line"><span>配色</span><div class="palette" role="group" aria-label="配色テーマ"><button type="button" data-theme-choice="paper" aria-label="ペーパーテーマ" title="ペーパー" aria-pressed="true"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg></button><button type="button" data-theme-choice="navy" aria-label="ネイビーテーマ" title="ネイビー" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20.5 14.1A8.7 8.7 0 0 1 9.9 3.5a8.9 8.9 0 1 0 10.6 10.6Z"/></svg></button></div></div>
+  </div>
+</div></div></div></div>
+      <div class="heading-row"><h2 class="heading" id="detailTitle">巨人師匠</h2></div>
+      <div class="sort-row"><div class="sort" role="group" aria-label="日付順"><button id="oldest" type="button" aria-pressed="true">↑ 古い順</button><button id="newest" type="button" aria-pressed="false">↓ 新しい順</button></div></div>
+      <div class="notice-search-row"><p class="notice"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 2 21h20L12 3Z"/><path d="M12 9v5"/><path d="M12 18h.01"/></svg><span>誤りが含まれる場合があります。</span></p>
+      <div class="search-bar"><input class="search" id="search" type="search" placeholder="コメント・日付で検索" aria-label="リンクを検索" hidden><button class="search-toggle" id="searchToggle" type="button" aria-expanded="false" aria-controls="search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16 16 5 5"/></svg><span id="searchLabel">検索</span></button></div></div>
+      <div id="items" class="items"></div>
+    </div>
+  </section>
+</main>
+</div>
+<button type="button" id="scrollTop" class="scroll-top" aria-label="ページの先頭へ戻る" title="先頭へ戻る">↑</button>
+<script>
+'use strict';
+// Persist only the user's visual theme preference (never passwords).
+const themeStorageKey='tsumoru-theme';
+function setTheme(theme){
+ const selected=theme==='navy'?'navy':'paper';
+ document.documentElement.dataset.theme=selected;
+ document.querySelectorAll('[data-theme-choice]').forEach(button=>{
+  button.setAttribute('aria-pressed',String(button.dataset.themeChoice===selected));
+ });
+ try{localStorage.setItem(themeStorageKey,selected)}catch(_e){}
+}
+let savedTheme='paper';
+try{if(['navy','amber'].includes(localStorage.getItem(themeStorageKey)))savedTheme='navy'}catch(_e){}
+setTheme(savedTheme);
+document.addEventListener('click',event=>{
+ const button=event.target.closest('[data-theme-choice]');
+ if(button)setTheme(button.dataset.themeChoice);
+});
+
+let entries=[];
+let categories=[];
+let sessionPassword='';
+let activeCategory=null;
+let sortOrder='asc';
+let fontStep=0; // 0 is the standard size; adjustment applies to all site text
+const $=id=>document.getElementById(id);
+const decode=s=>Uint8Array.from(atob(s),c=>c.charCodeAt(0));
+async function decrypt(payload,password){
+ const salt=decode(payload.salt),iv=decode(payload.iv),cipher=decode(payload.ciphertext);
+ const passKey=await crypto.subtle.importKey('raw',new TextEncoder().encode(password),'PBKDF2',false,['deriveKey']);
+ const key=await crypto.subtle.deriveKey({name:'PBKDF2',salt,iterations:payload.iterations,hash:'SHA-256'},passKey,{name:'AES-GCM',length:256},false,['decrypt']);
+ const plaintext=await crypto.subtle.decrypt({name:'AES-GCM',iv},key,cipher);
+ return JSON.parse(new TextDecoder().decode(plaintext));
+}
+async function readEncrypted(file,password){
+ // Use only filenames ending in .enc.json (without directory separators).
+ if(!/^[a-z0-9_-]+\.enc\.json$/i.test(file))throw new Error('不正なファイル名です');
+ const r=await fetch('./'+file,{cache:'no-store'});
+ if(!r.ok)throw new Error(file+' が見つかりません');
+ return decrypt(await r.json(),password);
+}
+function validateCategories(data){
+ if(!Array.isArray(data)||data.length>200)throw new Error('カテゴリ設定が不正です');
+ return data.filter(x=>x && typeof x.id==='string' && /^[a-z0-9_-]{1,64}$/i.test(x.id) && typeof x.name==='string' && x.name.length<80 && (typeof x.file==='string' && /^[a-z0-9_-]+\.enc\.json$/i.test(x.file)));
+}
+function makeCategories(){
+ const home=$('home');home.replaceChildren();
+ for(const c of categories){
+  const button=document.createElement('button');button.className='category';button.type='button';
+  const title=document.createElement('span');title.className='category-name';title.textContent=c.name;
+  const arrow=document.createElement('span');arrow.className='category-arrow';arrow.setAttribute('aria-hidden','true');arrow.textContent='→';
+  button.append(title,arrow);
+  button.addEventListener('click',()=>{location.hash=encodeURIComponent(c.id);});home.appendChild(button);
+ }
+}
+function showRoute(){
+ const route=decodeURIComponent(location.hash.slice(1));
+ activeCategory=categories.find(c=>c.id===route)||null;
+ const ready=Boolean(activeCategory && activeCategory.file);
+ $('home').hidden=ready;
+ $('detail').hidden=!ready;
+ $('topbar').hidden=ready;
+ $('site').querySelector('.hero').hidden=ready;
+ if(ready){
+  $('detailTitle').textContent=activeCategory.name;
+  $('visible').textContent='';
+  // Decrypt a category only on first visit and cache its entries in memory.
+  if(activeCategory._entries){entries=activeCategory._entries;render();}
+  else {
+   $('items').replaceChildren();
+   const msg=document.createElement('p');msg.className='entry';msg.textContent='読み込み中…';$('items').appendChild(msg);
+   const expected=activeCategory;
+   readEncrypted(expected.file,sessionPassword).then(data=>{
+    if(!Array.isArray(data))throw new Error('データ形式が不正です');
+    expected._entries=data.filter(x=>typeof x.url==='string' && /^https:\/\//i.test(x.url));
+    if(activeCategory===expected){entries=expected._entries;render();}
+    makeCategories();
+   }).catch(()=>{if(activeCategory===expected){$('items').textContent='データを読み込めませんでした。暗号化時のパスワードとファイルを確認してください。';}});
+  }
+ }
+}
+$('unlockForm').addEventListener('submit',async e=>{
+ e.preventDefault();const button=$('unlockButton');button.disabled=true;$('status').textContent='読み込み中…';
+ try{
+  const password=$('password').value;
+   const configResponse=await fetch('./categories.enc.json',{cache:'no-store'});
+   if(!configResponse.ok)throw new Error('カテゴリ一覧を読み込めませんでした');
+   const config=validateCategories(await decrypt(await configResponse.json(),password));
+   categories=config;
+  sessionPassword=password;
+  $('password').value='';$('gate').hidden=true;$('site').hidden=false;
+  makeCategories();showRoute();
+ }catch(err){$('status').textContent=err instanceof DOMException?'パスワードが違います':(err.message||'読み込みに失敗しました');}
+ finally{button.disabled=false;}
+});
+$('back').addEventListener('click',()=>{location.hash='';});
+window.addEventListener('hashchange',()=>{if(!$('site').hidden)showRoute();});
+$('search').addEventListener('input',render);
+$('searchToggle').addEventListener('click',()=>{
+ const input=$('search');const opening=input.hidden;
+ input.hidden=!opening;
+ $('searchToggle').setAttribute('aria-expanded',String(opening));
+ $('searchLabel').textContent=opening?'閉じる':'検索';
+ if(opening)input.focus();
+ else {input.value='';render();}
+});
+function setFontStep(next){
+ fontStep=Math.max(-3,Math.min(5,next));
+ document.documentElement.style.setProperty('--font-scale',String(1+fontStep*.08));
+ document.querySelectorAll('[data-font-value]').forEach(e=>e.textContent=fontStep===0?'標準':(fontStep>0?'+':'')+fontStep);
+ document.querySelectorAll('[data-font-delta]').forEach(b=>b.disabled=fontStep===(Number(b.dataset.fontDelta)<0?-3:5));
+ try{localStorage.setItem('tsumoru-font-step',String(fontStep));}catch(_e){}
+}
+let savedFontStep=0;
+try{const saved=Number(localStorage.getItem('tsumoru-font-step'));if(Number.isInteger(saved))savedFontStep=saved;}catch(_e){}
+setFontStep(savedFontStep);
+// Card spacing is independent from font size and persisted locally.
+const gapStorageKey='tsumoru-card-gap';
+let cardGap=12;
+function setCardGap(value){
+ cardGap=Math.max(4,Math.min(32,Math.round(value/4)*4));
+ document.documentElement.style.setProperty('--card-gap',cardGap+'px');
+ document.querySelectorAll('[data-gap-value]').forEach(e=>e.textContent=cardGap+'px');
+ document.querySelectorAll('[data-gap-delta]').forEach(b=>b.disabled=cardGap===(Number(b.dataset.gapDelta)<0?4:32));
+ try{localStorage.setItem(gapStorageKey,String(cardGap))}catch(_e){}
+}
+try{const saved=Number(localStorage.getItem(gapStorageKey));if(Number.isFinite(saved)&&saved>=4&&saved<=32)cardGap=saved}catch(_e){}
+setCardGap(cardGap);
+// Only one settings panel can be open at once.
+function closeSettings(){document.querySelectorAll('.settings-panel').forEach(p=>p.hidden=true);document.querySelectorAll('.settings-trigger').forEach(b=>b.setAttribute('aria-expanded','false'))}
+document.addEventListener('click',event=>{
+ const trigger=event.target.closest('.settings-trigger');
+ if(trigger){const parent=trigger.closest('.display-settings');const panel=parent.querySelector('.settings-panel');const opening=panel.hidden;closeSettings();panel.hidden=!opening;trigger.setAttribute('aria-expanded',String(opening));return;}
+ const font=event.target.closest('[data-font-delta]');if(font){setFontStep(fontStep+Number(font.dataset.fontDelta));return;}
+ const gap=event.target.closest('[data-gap-delta]');if(gap){setCardGap(cardGap+Number(gap.dataset.gapDelta));return;}
+ if(!event.target.closest('.display-settings'))closeSettings();
+});
+document.addEventListener('keydown',event=>{if(event.key==='Escape')closeSettings()});
+window.addEventListener('hashchange',closeSettings);
+
+const scrollTopButton=$('scrollTop');
+function updateScrollTop(){
+ const detailVisible=!$('site').hidden&&!$('detail').hidden;
+ scrollTopButton.classList.toggle('is-visible',detailVisible&&window.scrollY>480);
+}
+window.addEventListener('scroll',updateScrollTop,{passive:true});
+window.addEventListener('hashchange',()=>requestAnimationFrame(updateScrollTop));
+scrollTopButton.addEventListener('click',()=>window.scrollTo({top:0,behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'}));
+$('oldest').addEventListener('click',()=>setOrder('asc'));
+$('newest').addEventListener('click',()=>setOrder('desc'));
+function setOrder(order){sortOrder=order;$('oldest').setAttribute('aria-pressed',String(order==='asc'));$('newest').setAttribute('aria-pressed',String(order==='desc'));render();}
+function render(){
+ const q=$('search').value.trim().toLocaleLowerCase();
+ const matched=entries.filter(x=>(String(x.date||'')+' '+String(x.comment||'')+' '+x.url).toLocaleLowerCase().includes(q))
+  .sort((a,b)=>sortOrder==='asc'?String(a.date||'').localeCompare(String(b.date||'')):String(b.date||'').localeCompare(String(a.date||'')));
+ $('visible').textContent=matched.length+' 件';const list=$('items');list.replaceChildren();
+ if(!matched.length){const p=document.createElement('p');p.className='entry';p.textContent='該当するリンクはありません';list.append(p);return;}
+ for(const e of matched){
+  const box=document.createElement('article');box.className='entry';
+  const date=document.createElement('div');date.className='date';date.textContent=String(e.date||'').replaceAll('-','/');
+  const quote=document.createElement('div');quote.className='quote';
+  const comment=String(e.comment||'').trim();
+  if(comment)quote.textContent='「'+comment+'」';
+  else {quote.classList.add('quote-empty');quote.setAttribute('aria-hidden','true');}
+  const go=document.createElement('div');go.className='go';const a=document.createElement('a');a.href=e.url;a.target='_blank';a.rel='noopener noreferrer';a.textContent='配信を開く';go.append(a);
+  const footer=document.createElement('div');footer.className='entry-footer';footer.append(date,go);
+  box.append(quote,footer);list.append(box);
+ }
+}
+</script>
+</body>
+</html>
